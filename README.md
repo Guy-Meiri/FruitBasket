@@ -9,6 +9,7 @@ Bonus features implemented: we finish the game not only if there were 100 attemp
 ### To run the game
 Use the FruitBasketGame.jar file located in out/artifacts/FruitBasketGame and run the following command: 
 java -jar FruitBasketGame.jar 
+Another options is to build the project yourself using the source files from this repo.
 
 ## Main classes and their roles:
 
