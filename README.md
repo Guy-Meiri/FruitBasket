@@ -3,7 +3,7 @@
 This is a multiplayer game.
 The goal of the players is to guess the weigh of a fruit basket.
 
-## Main classes used:
+## Main classes and their roles:
 
 #### ConsoleUI
 Recieves and validates input from the console and displays gameplay output.
