@@ -4,9 +4,11 @@ This is a multiplayer game.
 The goal of the players is to guess the weigh of a fruit basket.
 Bonus features implemented: we finish the game not only if there were 100 attempts but also if 1500 milliseconds passed
 
+
+
 ### To run the game
-Use the FruitBasketGame.jar file located in out/artifacts/FruitBasketGame and run the following command:
-#### java -jar FruitBasketGame.jar 
+Use the FruitBasketGame.jar file located in out/artifacts/FruitBasketGame and run the following command: 
+java -jar FruitBasketGame.jar 
 
 ## Main classes and their roles:
 
