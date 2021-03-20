@@ -8,8 +8,8 @@ The goal of the players is to guess the weigh of a fruit basket.
 #### ConsoleUI
 Recieves and validates input from the console and displays gameplay output.
 Keeps a reference to a GameLogic instance and uses it to:
-1. initialize it with user input and start each game.
-2. Listens to a GameEnded event and display the results to the user by implementing the GameEndedListener interface.
+1. initialize user input and start each game.
+2. Listen to a GameEnded event (by implementing the GameEndedListener interface) and display the results to the user.
 
 #### GameLogic
 Creates the players (using the PlayerFactory mentioned below) and starts each player on a separate thread.
@@ -37,5 +37,8 @@ Implements PropertyChangeListener which listens to guesses events raised by the 
 
 #### PlayerFactory
 Used to create instances of actuall players according to the PlayerType enum.
+
+#### GameSettings
+Holds general game settings such as the possible number of player, the possible range of the fruit basket weight and so on.
 
 
