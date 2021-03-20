@@ -39,6 +39,6 @@ Implements PropertyChangeListener which listens to guesses events raised by the 
 Used to create instances of actuall players according to the PlayerType enum.
 
 #### GameSettings
-Holds general game settings such as the possible number of player, the possible range of the fruit basket weight and so on.
+Holds general game settings such as the possible number of players, the possible range of the fruit basket weight and so on.
 
 
