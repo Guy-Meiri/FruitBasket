@@ -2,6 +2,7 @@
 
 This is a multiplayer game.
 The goal of the players is to guess the weigh of a fruit basket.
+Bonus features implemented: we finish the game not only if there were 100 attempts but also if 1500 milliseconds passed
 
 ## Main classes and their roles:
 
