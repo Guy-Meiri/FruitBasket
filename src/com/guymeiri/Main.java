@@ -1,8 +1,11 @@
 package com.guymeiri;
 
+import com.guymeiri.ui.ConsoleUI;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        ConsoleUI ui = new ConsoleUI();
+        ui.init();
     }
 }
