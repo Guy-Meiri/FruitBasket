@@ -25,7 +25,7 @@ Raises a GameEnded event (Listened to by the ui) at the end of the game.
 
 #### BasePlayer 
 An abstract class used as a base class for the different type of players.
-Implements the Runnable interface (used to run each player in a separate thread) and runs the .
+Implements the Runnable interface (used to run each player in a separate thread) and shares common methods and data-member to the extending sub-classes .
 
 #### AbstractCheater ( extends BasePlayer)
 An abstract class used as a base class for the different cheater players.
