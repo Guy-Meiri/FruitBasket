@@ -10,6 +10,7 @@ Bonus features implemented: we finish the game not only if there were 100 attemp
 java -jar FruitBasketGAME.jar.
 - Another options is to build the project yourself using the source files from this repo.
 
+
 ## Main classes and their roles:
 
 #### ConsoleUI
@@ -17,6 +18,8 @@ Recieves and validates input from the console and displays gameplay output.
 Keeps a reference to a GameLogic instance and uses it to:
 1. initialize user input and start each game.
 2. Listen to a GameEnded event (by implementing the GameEndedListener interface) and display the results to the user.
+
+* side note - I've intentionally separated the UI (frontend) and the logic (backend) components of the program, which lets us replace the frontend of the system in the future without changing the backend code.
 
 #### GameLogic
 Creates the players (using the PlayerFactory mentioned below) and starts each player on a separate thread.
